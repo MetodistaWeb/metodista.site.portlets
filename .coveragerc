@@ -1,14 +1,2 @@
 [report]
 omit =
-    /home/*/.buildout/eggs/*
-    /usr/*
-    bin/test
-    buildout-cache/eggs/*
-    eggs/*
-    parts/*
-    src/metodista.site.educacaosuperior/*
-    src/metodista/site/educacaosuperior*
-    src/metodista.site.colegios/*
-    src/metodista/site/colegios*
-    src/metodista.site.tema/*
-    src/metodista/site/tema*

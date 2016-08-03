@@ -1,6 +1,10 @@
 Histórico de Alterações
 ------------------------
 
+0.5.6 (unreleased)
+^^^^^^^^^^^^^^^^^^
+* Ajustas testes automatizados [danilo.barbato]
+
 0.5.5 (15-12-2015)
 ^^^^^^^^^^^^^^^^^^
 * Adiciona arquivo de config

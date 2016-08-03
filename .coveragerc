@@ -2,6 +2,7 @@
 omit =
     /home/*/.buildout/eggs/*
     /usr/*
+    /home/travis/virtualenv/*
     bin/test
     buildout-cache/eggs/*
     eggs/*

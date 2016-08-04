@@ -8,13 +8,27 @@ metodista.site.portlets
 Introdução
 ----------
 
-TODO
+Produto com funcionalidades de portlets para portais.
 
 Portlets
 -----------------
 
 Portlets
 ^^^^^^^^
+
+Estado do pacote
+----------------
+
+O produto **metodista.site.portlets** possui testes automatizados e cobertura de testes pelos serviços Travis e CoverAlls.
+
+Segue abaixo imagens com estado atual do branch master dos testes e cobertura deste produto:
+
+.. image:: https://travis-ci.org/MetodistaWeb/metodista.site.portlets.svg?branch=master
+   :target: https://travis-ci.org/MetodistaWeb/metodista.site.portlets
+
+.. image:: https://coveralls.io/repos/github/MetodistaWeb/metodista.site.portlets/badge.svg
+   :target: https://coveralls.io/github/MetodistaWeb/metodista.site.portlets
+
 
 Instalação
 ----------

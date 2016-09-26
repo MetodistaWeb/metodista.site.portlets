@@ -29,13 +29,28 @@
                               mesTraducao python:'month_' + mesEvento.lower() + '_abbr'">
                   <span i18n:domain="plonelocales"
                         i18n:translate="">
-                    <span i18n:name="day"
-                          class="dia"
-                          tal:content="diaEvento">06</span>
-                    <span i18n:name="monthname"
-                          i18n:translate=""
-                          tal:content="mesTraducao"
-                          class="mes">SET</span>
+                    <tal:agenda tal:condition="python:obj.start.Date() == obj.end.Date()">
+                      <span i18n:name="day"
+                            class="dia"
+                            tal:content="diaEvento">06</span>
+                      <span i18n:name="monthname"
+                            i18n:translate=""
+                            tal:content="mesTraducao"
+                            class="mes">SET</span>
+                    </tal:agenda>
+                    <tal:agenda tal:condition="python:obj.start.Date() != obj.end.Date()"
+                                tal:define="obj_end_date obj/end;
+                                diaEventoFim python:DateTime(obj_end_date).strftime('%d');
+                                mesEventoFim python:DateTime(obj_end_date).strftime('%b');
+                                mesTraducaoFim python:'month_' + mesEventoFim.lower() + '_abbr'">
+                      <span class="dayStart">
+                        <tal:dia i18n:name="day" tal:content="diaEvento">06</tal:dia>/<tal:mes i18n:name="monthname" i18n:translate="" tal:content="mesTraducao">SET</tal:mes>
+                      </span>
+                      <span class="division">-</span>
+                      <span class="dayEnd">
+                        <tal:diafim tal:content="diaEventoFim">08</tal:diafim>/<tal:mesfim i18n:translate="" tal:content="mesTraducaoFim">SET</tal:mesfim>
+                      </span>
+                    </tal:agenda>
                   </span>
             </span>
             <span class="portletItemDetails"

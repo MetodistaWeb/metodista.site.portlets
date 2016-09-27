@@ -48,10 +48,10 @@
                     </span>
                     <span class="division">a</span>
                     <span class="dayEnd">
-                      <span class="dayEvent"><tal:diafim tal:content="diaEventoFim"><span class="dayEvent">08</span></tal:diafim><tal:mesfim i18n:translate="" tal:content="mesTraducaoFim">SET</tal:mesfim>
+                      <span class="dayEvent"><tal:diafim tal:content="diaEventoFim"><span class="dayEvent">08</tal:diafim></span><tal:mesfim i18n:translate="" tal:content="mesTraducaoFim">SET</tal:mesfim>
                     </span>
-                  </span>
                   </tal:agenda>
+                  </span>
             </span>
             <span class="portletItemDetails"
                   tal:condition="python:obj.portal_type != 'Event'"
@@ -70,8 +70,8 @@
         </a>
     </li>
     </tal:events>
-  </ul>
     <div class="visualClear"><!-- --></div>
+  </ul>
     <footer class="portletFooter"
             tal:condition="python:showMore or view.include_empty_footer()"
             tal:define="showMore view/data/show_more">

@@ -1,9 +1,9 @@
 Histórico de Alterações
 ------------------------
 
-0.5.8 (unreleased)
+0.5.8 (27-09-2016)
 ^^^^^^^^^^^^^^^^^^
-* Nada alterado ainda.
+* Ajusta bug no template. [danilo.barbato]
 
 0.5.7 (27-09-2016)
 ^^^^^^^^^^^^^^^^^^

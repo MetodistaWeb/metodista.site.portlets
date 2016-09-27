@@ -1,6 +1,10 @@
 Histórico de Alterações
 ------------------------
 
+0.5.8 (unreleased)
+^^^^^^^^^^^^^^^^^^
+* Nada alterado ainda.
+
 0.5.7 (27-09-2016)
 ^^^^^^^^^^^^^^^^^^
 * Adiciona classe para estilização das datas. [danilo.barbato]

@@ -1,7 +1,7 @@
 Histórico de Alterações
 ------------------------
 
-0.5.6 (unreleased)
+0.5.6 (27-09-2016)
 ^^^^^^^^^^^^^^^^^^
 * Adiciona duas datas para eventos com mais de um dia. [danilo.barbato]
 * Ajustas testes automatizados [danilo.barbato]
